@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Tsunazmi is a free-to-play social casino-style lounge powered by virtual coins only."
+    />
+    <title>Tsunazmi — Play Free</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="ts-skip" href="#main">Skip to content</a>
+
+    <header class="ts-header" role="banner">
+      <div class="ts-shell ts-header__row">
+        <a class="ts-brand" href="index.html" aria-label="Tsunazmi home">
+          <img src="assets/logo.webp" alt="" />
+        </a>
+
+        <nav class="ts-nav" id="ts-nav" aria-label="Primary">
+          <a class="is-active" href="index.html">Home</a>
+          <a href="games.html">Games</a>
+          <a href="about.html">About</a>
+          <a href="faq.html">FAQ</a>
+          <a href="responsible-play.html">Responsible play</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <button
+          class="ts-burger"
+          type="button"
+          aria-controls="ts-nav"
+          aria-expanded="false"
+          aria-label="Open menu"
+        >
+          <i></i>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="ts-hero">
+        <div class="ts-shell ts-hero__grid">
+          <div class="ts-hero__copy ts-reveal">
+            <p class="ts-kicker">Virtual coins only</p>
+            <h1 class="ts-h1">A calm lounge for free play.</h1>
+            <p class="ts-lead">
+              Tsunazmi is a free-to-play social experience powered by virtual coins only.
+              Choose a lobby, enjoy a session, and keep it entertainment-first.
+            </p>
+
+            <div class="ts-hero__actions">
+              <a class="ts-btn ts-btn--primary" href="games.html">Play Free</a>
+              <a class="ts-btn ts-btn--quiet" href="about.html">How it works</a>
+            </div>
+          </div>
+
+          <aside class="ts-panel ts-reveal" aria-label="Virtual coin overview" aria-hidden="true">
+            <div class="ts-panel__title">Coin rhythm</div>
+            <div class="ts-coinRow">
+              <span style="color:var(--ts-muted);font-weight:800;">Balance</span>
+              <b>—</b>
+            </div>
+            <div class="ts-progress"><span></span></div>
+            <p class="ts-panel__note">
+              Coins are for progression and fun inside Tsunazmi. They have no real-money value.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="ts-section" aria-labelledby="featured-heading">
+        <div class="ts-shell">
+          <div class="ts-sectionHead ts-reveal" id="featured-heading">
+            <p class="ts-eyebrow">Featured lobbies</p>
+            <h2 class="ts-h2">Start with a style you like.</h2>
+            <p class="ts-sub">
+              Three quick picks from our virtual-coin catalog—no clutter, just a clean path to play.
+            </p>
+          </div>
+
+          <div class="ts-featuredGrid">
+            <a class="ts-game ts-reveal" data-ts-cat="slots" href="games/slot-machine/index.html" aria-label="Play Free Neon Slots Rush Deluxe">
+              <div class="ts-game__media"><img src="assets/game_card_slot.webp" alt="" /></div>
+              <div class="ts-game__body">
+                <div class="ts-game__label">Virtual coins</div>
+                <h3 class="ts-game__title">Neon Slots Rush Deluxe</h3>
+                <p class="ts-game__meta">Slots · virtual coin sessions</p>
+                <div class="ts-game__cta">Play Free</div>
+              </div>
+            </a>
+
+            <a class="ts-game ts-reveal" data-ts-cat="roulette" href="games/roulette/index.html" aria-label="Play Free Mega Roulette Spin X">
+              <div class="ts-game__media"><img src="assets/roulette.webp" alt="" /></div>
+              <div class="ts-game__body">
+                <div class="ts-game__label">Free play</div>
+                <h3 class="ts-game__title">Mega Roulette Spin X</h3>
+                <p class="ts-game__meta">Roulette · virtual coin rhythm</p>
+                <div class="ts-game__cta">Play Free</div>
+              </div>
+            </a>
+
+            <a class="ts-game ts-reveal" data-ts-cat="blackjack" href="games/blackjack/index.html" aria-label="Play Free Lucky Blackjack Pro">
+              <div class="ts-game__media"><img src="assets/blackjack.webp" alt="" /></div>
+              <div class="ts-game__body">
+                <div class="ts-game__label">Virtual coins</div>
+                <h3 class="ts-game__title">Lucky Blackjack Pro</h3>
+                <p class="ts-game__meta">Blackjack · focused free play</p>
+                <div class="ts-game__cta">Play Free</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="ts-section" aria-labelledby="how-heading">
+        <div class="ts-shell">
+          <div class="ts-sectionHead ts-reveal" id="how-heading">
+            <p class="ts-eyebrow">How it works</p>
+            <h2 class="ts-h2">Simple, free, entertainment-first.</h2>
+            <p class="ts-sub">A small set of rules that keep the experience clean and easy to use.</p>
+          </div>
+
+          <div class="ts-steps">
+            <div class="ts-step ts-reveal">
+              <div class="ts-step__num">1</div>
+              <h3>Pick a lobby</h3>
+              <p>Choose Slots, Roulette, Blackjack, Poker, or Wheel—then jump in fast.</p>
+            </div>
+            <div class="ts-step ts-reveal">
+              <div class="ts-step__num">2</div>
+              <h3>Play with virtual coins</h3>
+              <p>Everything is virtual-coin entertainment. Nothing maps to real money.</p>
+            </div>
+            <div class="ts-step ts-reveal">
+              <div class="ts-step__num">3</div>
+              <h3>Keep sessions balanced</h3>
+              <p>Enjoy at your pace. Step away whenever you want—no pressure.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ts-section" aria-labelledby="testi-heading">
+        <div class="ts-shell">
+          <div class="ts-sectionHead ts-reveal" id="testi-heading">
+            <p class="ts-eyebrow">Testimonials</p>
+            <h2 class="ts-h2">Players like the calm.</h2>
+            <p class="ts-sub">Short notes from people who prefer clean, virtual-coin play.</p>
+          </div>
+
+          <div class="ts-testGrid">
+            <figure class="ts-quote ts-reveal">
+              <blockquote>“It feels premium and readable. I can choose a lobby quickly and start without noise.”</blockquote>
+              <figcaption class="ts-quote__who">
+                <span class="ts-avatar"><img src="assets/testi1.webp" alt="" loading="lazy" /></span>
+                <span>
+                  <span class="ts-quote__name">Elena M.</span>
+                  <span class="ts-quote__role">Product designer</span>
+                </span>
+              </figcaption>
+            </figure>
+
+            <figure class="ts-quote ts-reveal">
+              <blockquote>“Virtual coins are just part of the fun. The interface keeps it focused and respectful.”</blockquote>
+              <figcaption class="ts-quote__who">
+                <span class="ts-avatar"><img src="assets/testi2.webp" alt="" loading="lazy" /></span>
+                <span>
+                  <span class="ts-quote__name">James R.</span>
+                  <span class="ts-quote__role">Software engineer</span>
+                </span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="ts-footer" role="contentinfo">
+      <div class="ts-shell">
+        <div class="ts-footer__grid">
+          <div>
+            <div class="ts-footer__brand">
+              <img src="assets/logo.webp" alt="" />
+              <span>Tsunazmi</span>
+            </div>
+            <p class="ts-footer__intro">
+              Free-to-play entertainment. Virtual coins only. Updated March <span class="js-year">2026</span>.
+            </p>
+          </div>
+
+          <div class="ts-footer__cols">
+            <div class="ts-footer__col">
+              <h4>Site</h4>
+              <a href="index.html">Home</a>
+              <a href="games.html">Games</a>
+              <a href="about.html">About</a>
+              <a href="contact.html">Contact</a>
+            </div>
+            <div class="ts-footer__col">
+              <h4>Legal</h4>
+              <a href="privacy-policy.html">Privacy</a>
+              <a href="terms-of-use.html">Terms</a>
+              <a href="responsible-play.html">Responsible play</a>
+              <a href="faq.html">FAQ</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="ts-footer__legal">
+          © <span class="js-year">2026</span> Tsunazmi. Virtual coins have no cash value.
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
